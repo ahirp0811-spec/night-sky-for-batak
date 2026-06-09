@@ -8,54 +8,51 @@
 
 body{
 margin:0;
-background:black;
-font-family:Georgia,serif;
+font-family:Georgia, serif;
+background:#000;
 color:white;
 text-align:center;
-overflow-x:hidden;
 }
 
 .hero{
 height:100vh;
-background:url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=2070");
+background:url("moon.moon.jpeg");
 background-size:cover;
+background-position:center;
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
+padding:20px;
+}
+
+.overlay{
+background:rgba(0,0,0,0.45);
+padding:30px;
+border-radius:20px;
 }
 
 h1{
-font-size:50px;
+font-size:3rem;
+margin-bottom:10px;
 }
 
-.star{
-font-size:90px;
+button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:10px;
 cursor:pointer;
-animation:pulse 2s infinite;
-}
-
-@keyframes pulse{
-50%{
-transform:scale(1.15);
-}
+margin-top:20px;
 }
 
 .letter{
 display:none;
 max-width:800px;
 margin:auto;
-padding:40px;
+padding:40px 25px;
 font-size:20px;
 line-height:1.8;
-}
-
-button{
-padding:15px 25px;
-font-size:18px;
-cursor:pointer;
-border:none;
-border-radius:10px;
 }
 
 </style>
@@ -65,19 +62,25 @@ border-radius:10px;
 
 <div class="hero">
 
+<div class="overlay">
+
 <h1>Happy Birthday, Coffee Girl 🐣🧿</h1>
 
-<div class="star">⭐</div>
+<p>
+Tonight's moon is dedicated to you.
+</p>
 
 <button onclick="showLetter()">
-Open Your Star
+Open Your Star ⭐
 </button>
+
+</div>
 
 </div>
 
 <div class="letter" id="letter">
 
-<h2>A Star Named After You</h2>
+<h2>⭐ A Star Named After You ⭐</h2>
 
 <p>
 Out of all the stars in the sky,
@@ -87,27 +90,62 @@ I decided to dedicate one to you.
 <p>
 Not because you're perfect.
 Not because you're the brightest.
-But because somehow,
-you became one of my favorite people.
 </p>
 
 <p>
-Thank you for the coffee talks,
-the laughs,
-the teasing,
-and for somehow missing every obvious flirt I've ever thrown your way.
+But because somehow, in a very short amount of time,
+you became one of my favorite people to talk to.
 </p>
 
 <p>
-I hope this year brings more coffee,
-more happiness,
-more adventures,
-and more reasons to smile.
+We've shared random conversations,
+coffee discussions that probably lasted longer than they should have,
+terrible jokes,
+endless teasing,
+and an impressive number of flirts that somehow flew right over your head.
 </p>
 
 <p>
-Somewhere in the universe,
-there's a tiny star with your name on it.
+Honestly, I still don't know whether you're innocent,
+clueless,
+or secretly pretending not to notice.
+</p>
+
+<p>
+I guess the mystery remains unsolved.
+</p>
+
+<p>
+Thank you for being the kind of person who can make an ordinary day feel less ordinary.
+</p>
+
+<p>
+Thank you for laughing at stupid things.
+</p>
+
+<p>
+Thank you for tolerating my nonsense.
+</p>
+
+<p>
+And thank you for being the person who wakes up to random doodles because apparently my brain decides that drawing good morning art at ridiculous hours is a perfectly normal thing to do.
+</p>
+
+<p>
+I hope this year brings you more happiness than stress,
+more coffee than tired mornings,
+more adventures than excuses,
+and more reasons to smile than reasons to overthink.
+</p>
+
+<p>
+And if life ever gets noisy,
+just remember:
+</p>
+
+<p>
+Somewhere in the universe there's a tiny star with your name on it,
+created by a friend who thinks you're pretty awesome.
 </p>
 
 <h3>
